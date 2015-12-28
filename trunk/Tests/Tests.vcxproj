@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Tests</RootNamespace>
+    <ProjectName>Util</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="OpenCV_Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="OpenCV_Debug.props" />
+    <Import Project="OpenCV_Release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="lena.jpg" />
+    <None Include="Men_One_Sample_Norm\adam_sandler1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\akon2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\andrew_lincoln5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\andre_marques5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\arnold_schwarzenegger5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\ashton_kutcher1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\barack_obama1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\ben_affleck3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\ben_stiller4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\brad_pitt3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\chris_brown2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\chris_rock1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\chuck_norris1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\daniel_radcliffe3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\david_schwimmer1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\dwayne_johnson2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\eddie_murphy5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\henri_castelli2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\hugh_jackman8_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jackie_chan9_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jason_statham4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jet_li6_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jim_carey1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jim_parsons7.jpg" />
+    <None Include="Men_One_Sample_Norm\johnny_depp1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\johnny_galecki4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\jon_bernthal2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\justin_bieber5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\kaua_reymond3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\kunal_nayyar4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\lazaro_ramos7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\leonardo_dicaprio8_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\luan_santana3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\luciano_huck1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\macaulay_culkin5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\marcello_novaes3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\marcelo_serrado5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\marcos_mion3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\marcos_palmeira7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\mateus_solano1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\matthew_perry4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\matt_damon3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\matt_le_blanc3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\michael_clarke_duncan6.jpg" />
+    <None Include="Men_One_Sample_Norm\michel_telo10_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\murilo_benicio7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\nick_jonas6_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\nicolas_cage7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\norman_reedus1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\paulo_zulu6_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\psy2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\robert_downey7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\robert_pattinson4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\rodrigo_santoro4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\ryan_reynolds2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\samuel_l_jackson2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\sergio_marone7_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\simon_helberg5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\steven_seagal5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\steven_yeun6_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\sylvester_stallone1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\taylor_lautner5_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\Terrycrews3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\tommy_lee_jones2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\tom_cruise1_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\tom_hanks4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\tyler_james4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\vince_vaughn4_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\vin_diesel3_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\will_smith2_recortada.jpg" />
+    <None Include="Men_One_Sample_Norm\zac_efron1_recortada.jpg" />
+    <None Include="OpenCV_Debug.props" />
+    <None Include="OpenCV_Release.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

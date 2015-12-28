@@ -1,0 +1,259 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Object Detection", "Object Detection\Object Detection.vcxproj", "{E5237F30-46F8-4A07-BF53-1201D3A35401}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Util", "Tests\Tests.vcxproj", "{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Face Detection", "Face Detection\Face Detection.vcxproj", "{52D36644-3D0F-4746-A201-2D41E8901913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C0C60B6-D71A-45E0-BD6E-670974CB5B65}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\OpenCV_Debug.props = Tests\OpenCV_Debug.props
+		Tests\OpenCV_Release.props = Tests\OpenCV_Release.props
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LDA", "LDA\LDA.vcxproj", "{41CA8E5C-778F-4651-A2E8-93762EBD6102}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two-ClassLDA", "Two-ClassLDA\Two-ClassLDA.vcxproj", "{BC49310B-A048-474B-ADA5-C532B9738E18}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LBPH", "LBPH\LBPH.vcxproj", "{8D0520D6-6D80-469E-BFAC-D504EBB6A29F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCA", "PCA\PCA.vcxproj", "{05B83D3D-203B-4A98-9C3A-B296D61E865E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_PCA", "_PCA\_PCA.vcxproj", "{15BC3FE8-363C-4509-921F-440CF85EC136}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_LDA", "_LDA\_LDA.vcxproj", "{2174847D-5B37-4455-A453-70D97156E44F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_LBPH", "_LBPH\_LBPH.vcxproj", "{A892BF0A-9C9C-419C-87E3-AD9F569CBD26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ANNTests", "ANNTests\ANNTests.vcxproj", "{AB006D68-F3A2-4FD4-BCCF-2807CC62C51A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RBFTests", "RBFTests\RBFTests.vcxproj", "{EF6404C6-25ED-4EA7-A6F5-8E1A550990FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_PC2A", "_PC2A\_PC2A.vcxproj", "{6A845249-1A83-4492-92C5-12F975808899}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SVMTests", "SVMTests\SVMTests.vcxproj", "{CF04424C-10EC-4398-A0C2-DFA08BB15EA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SVM_PC2A", "SVM_PC2A\SVM_PC2A.vcxproj", "{C2AAC5D6-5EBC-4C23-A065-6795B791CB0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opencv", "opencv", "{FA5C231C-A7A9-4987-BCE3-E232183B7066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{56884780-F2E3-46C1-822C-893EDB313338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{28DD968A-5F48-49D6-A86D-1DEC12F2C8F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{0820C282-A03D-4D9C-B2B4-D6B81D92EF78}"
+	ProjectSection(SolutionItems) = preProject
+		opencv\bin\opencv_calib3d242.dll = opencv\bin\opencv_calib3d242.dll
+		opencv\bin\opencv_calib3d242d.dll = opencv\bin\opencv_calib3d242d.dll
+		opencv\bin\opencv_contrib242.dll = opencv\bin\opencv_contrib242.dll
+		opencv\bin\opencv_contrib242d.dll = opencv\bin\opencv_contrib242d.dll
+		opencv\bin\opencv_core242.dll = opencv\bin\opencv_core242.dll
+		opencv\bin\opencv_core242d.dll = opencv\bin\opencv_core242d.dll
+		opencv\bin\opencv_features2d242.dll = opencv\bin\opencv_features2d242.dll
+		opencv\bin\opencv_features2d242d.dll = opencv\bin\opencv_features2d242d.dll
+		opencv\bin\opencv_ffmpeg242.dll = opencv\bin\opencv_ffmpeg242.dll
+		opencv\bin\opencv_ml242d.dll = opencv\bin\opencv_ml242d.dll
+		opencv\bin\opencv_nonfree242.dll = opencv\bin\opencv_nonfree242.dll
+		opencv\bin\opencv_nonfree242d.dll = opencv\bin\opencv_nonfree242d.dll
+		opencv\bin\opencv_objdetect242.dll = opencv\bin\opencv_objdetect242.dll
+		opencv\bin\opencv_objdetect242d.dll = opencv\bin\opencv_objdetect242d.dll
+		opencv\bin\opencv_photo242.dll = opencv\bin\opencv_photo242.dll
+		opencv\bin\opencv_photo242d.dll = opencv\bin\opencv_photo242d.dll
+		opencv\bin\opencv_stitching242.dll = opencv\bin\opencv_stitching242.dll
+		opencv\bin\opencv_stitching242d.dll = opencv\bin\opencv_stitching242d.dll
+		opencv\bin\opencv_ts242.dll = opencv\bin\opencv_ts242.dll
+		opencv\bin\opencv_ts242d.dll = opencv\bin\opencv_ts242d.dll
+		opencv\bin\opencv_video242.dll = opencv\bin\opencv_video242.dll
+		opencv\bin\opencv_video242d.dll = opencv\bin\opencv_video242d.dll
+		opencv\bin\opencv_videostab242.dll = opencv\bin\opencv_videostab242.dll
+		opencv\bin\opencv_videostab242d.dll = opencv\bin\opencv_videostab242d.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opencv", "opencv", "{A2ABC514-6EB6-4AD0-B6EA-C55FD84B6204}"
+	ProjectSection(SolutionItems) = preProject
+		opencv\include\opencv\cv.h = opencv\include\opencv\cv.h
+		opencv\include\opencv\cv.hpp = opencv\include\opencv\cv.hpp
+		opencv\include\opencv\cvaux.h = opencv\include\opencv\cvaux.h
+		opencv\include\opencv\cvaux.hpp = opencv\include\opencv\cvaux.hpp
+		opencv\include\opencv\cvwimage.h = opencv\include\opencv\cvwimage.h
+		opencv\include\opencv\cxcore.h = opencv\include\opencv\cxcore.h
+		opencv\include\opencv\cxcore.hpp = opencv\include\opencv\cxcore.hpp
+		opencv\include\opencv\cxeigen.hpp = opencv\include\opencv\cxeigen.hpp
+		opencv\include\opencv\cxmisc.h = opencv\include\opencv\cxmisc.h
+		opencv\include\opencv\highgui.h = opencv\include\opencv\highgui.h
+		opencv\include\opencv\ml.h = opencv\include\opencv\ml.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opencv2", "opencv2", "{570C63ED-5260-43C3-B126-BADB5E8DB541}"
+	ProjectSection(SolutionItems) = preProject
+		opencv\include\opencv2\opencv.hpp = opencv\include\opencv2\opencv.hpp
+		opencv\include\opencv2\opencv_modules.hpp = opencv\include\opencv2\opencv_modules.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{DAD17848-81C0-436B-B6E4-165C21D9A303}"
+	ProjectSection(SolutionItems) = preProject
+		opencv\lib\Debug\opencv_calib3d242d.exp = opencv\lib\Debug\opencv_calib3d242d.exp
+		opencv\lib\Debug\opencv_calib3d242d.lib = opencv\lib\Debug\opencv_calib3d242d.lib
+		opencv\lib\Debug\opencv_contrib242d.exp = opencv\lib\Debug\opencv_contrib242d.exp
+		opencv\lib\Debug\opencv_contrib242d.lib = opencv\lib\Debug\opencv_contrib242d.lib
+		opencv\lib\Debug\opencv_core242d.exp = opencv\lib\Debug\opencv_core242d.exp
+		opencv\lib\Debug\opencv_core242d.lib = opencv\lib\Debug\opencv_core242d.lib
+		opencv\lib\Debug\opencv_features2d242d.exp = opencv\lib\Debug\opencv_features2d242d.exp
+		opencv\lib\Debug\opencv_features2d242d.lib = opencv\lib\Debug\opencv_features2d242d.lib
+		opencv\lib\Debug\opencv_flann242d.exp = opencv\lib\Debug\opencv_flann242d.exp
+		opencv\lib\Debug\opencv_flann242d.lib = opencv\lib\Debug\opencv_flann242d.lib
+		opencv\lib\Debug\opencv_gpu242d.exp = opencv\lib\Debug\opencv_gpu242d.exp
+		opencv\lib\Debug\opencv_gpu242d.lib = opencv\lib\Debug\opencv_gpu242d.lib
+		opencv\lib\Debug\opencv_haartraining_engined.lib = opencv\lib\Debug\opencv_haartraining_engined.lib
+		opencv\lib\Debug\opencv_haartraining_engined.pdb = opencv\lib\Debug\opencv_haartraining_engined.pdb
+		opencv\lib\Debug\opencv_highgui242d.exp = opencv\lib\Debug\opencv_highgui242d.exp
+		opencv\lib\Debug\opencv_highgui242d.lib = opencv\lib\Debug\opencv_highgui242d.lib
+		opencv\lib\Debug\opencv_imgproc242d.exp = opencv\lib\Debug\opencv_imgproc242d.exp
+		opencv\lib\Debug\opencv_imgproc242d.lib = opencv\lib\Debug\opencv_imgproc242d.lib
+		opencv\lib\Debug\opencv_legacy242d.exp = opencv\lib\Debug\opencv_legacy242d.exp
+		opencv\lib\Debug\opencv_legacy242d.lib = opencv\lib\Debug\opencv_legacy242d.lib
+		opencv\lib\Debug\opencv_ml242d.exp = opencv\lib\Debug\opencv_ml242d.exp
+		opencv\lib\Debug\opencv_ml242d.lib = opencv\lib\Debug\opencv_ml242d.lib
+		opencv\lib\Debug\opencv_nonfree242d.exp = opencv\lib\Debug\opencv_nonfree242d.exp
+		opencv\lib\Debug\opencv_nonfree242d.lib = opencv\lib\Debug\opencv_nonfree242d.lib
+		opencv\lib\Debug\opencv_objdetect242d.exp = opencv\lib\Debug\opencv_objdetect242d.exp
+		opencv\lib\Debug\opencv_objdetect242d.lib = opencv\lib\Debug\opencv_objdetect242d.lib
+		opencv\lib\Debug\opencv_photo242d.exp = opencv\lib\Debug\opencv_photo242d.exp
+		opencv\lib\Debug\opencv_photo242d.lib = opencv\lib\Debug\opencv_photo242d.lib
+		opencv\lib\Debug\opencv_stitching242d.exp = opencv\lib\Debug\opencv_stitching242d.exp
+		opencv\lib\Debug\opencv_stitching242d.lib = opencv\lib\Debug\opencv_stitching242d.lib
+		opencv\lib\Debug\opencv_ts242d.exp = opencv\lib\Debug\opencv_ts242d.exp
+		opencv\lib\Debug\opencv_ts242d.lib = opencv\lib\Debug\opencv_ts242d.lib
+		opencv\lib\Debug\opencv_video242d.exp = opencv\lib\Debug\opencv_video242d.exp
+		opencv\lib\Debug\opencv_video242d.lib = opencv\lib\Debug\opencv_video242d.lib
+		opencv\lib\Debug\opencv_videostab242d.exp = opencv\lib\Debug\opencv_videostab242d.exp
+		opencv\lib\Debug\opencv_videostab242d.lib = opencv\lib\Debug\opencv_videostab242d.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{FC53A7AE-B944-4228-8E28-BCCA247448D7}"
+	ProjectSection(SolutionItems) = preProject
+		opencv\lib\Release\opencv_calib3d242.exp = opencv\lib\Release\opencv_calib3d242.exp
+		opencv\lib\Release\opencv_calib3d242.lib = opencv\lib\Release\opencv_calib3d242.lib
+		opencv\lib\Release\opencv_contrib242.exp = opencv\lib\Release\opencv_contrib242.exp
+		opencv\lib\Release\opencv_contrib242.lib = opencv\lib\Release\opencv_contrib242.lib
+		opencv\lib\Release\opencv_core242.exp = opencv\lib\Release\opencv_core242.exp
+		opencv\lib\Release\opencv_core242.lib = opencv\lib\Release\opencv_core242.lib
+		opencv\lib\Release\opencv_features2d242.exp = opencv\lib\Release\opencv_features2d242.exp
+		opencv\lib\Release\opencv_features2d242.lib = opencv\lib\Release\opencv_features2d242.lib
+		opencv\lib\Release\opencv_flann242.exp = opencv\lib\Release\opencv_flann242.exp
+		opencv\lib\Release\opencv_flann242.lib = opencv\lib\Release\opencv_flann242.lib
+		opencv\lib\Release\opencv_gpu242.exp = opencv\lib\Release\opencv_gpu242.exp
+		opencv\lib\Release\opencv_gpu242.lib = opencv\lib\Release\opencv_gpu242.lib
+		opencv\lib\Release\opencv_haartraining_engine.lib = opencv\lib\Release\opencv_haartraining_engine.lib
+		opencv\lib\Release\opencv_haartraining_engine.pdb = opencv\lib\Release\opencv_haartraining_engine.pdb
+		opencv\lib\Release\opencv_highgui242.exp = opencv\lib\Release\opencv_highgui242.exp
+		opencv\lib\Release\opencv_highgui242.lib = opencv\lib\Release\opencv_highgui242.lib
+		opencv\lib\Release\opencv_imgproc242.exp = opencv\lib\Release\opencv_imgproc242.exp
+		opencv\lib\Release\opencv_imgproc242.lib = opencv\lib\Release\opencv_imgproc242.lib
+		opencv\lib\Release\opencv_legacy242.exp = opencv\lib\Release\opencv_legacy242.exp
+		opencv\lib\Release\opencv_legacy242.lib = opencv\lib\Release\opencv_legacy242.lib
+		opencv\lib\Release\opencv_ml242.exp = opencv\lib\Release\opencv_ml242.exp
+		opencv\lib\Release\opencv_ml242.lib = opencv\lib\Release\opencv_ml242.lib
+		opencv\lib\Release\opencv_nonfree242.exp = opencv\lib\Release\opencv_nonfree242.exp
+		opencv\lib\Release\opencv_nonfree242.lib = opencv\lib\Release\opencv_nonfree242.lib
+		opencv\lib\Release\opencv_objdetect242.exp = opencv\lib\Release\opencv_objdetect242.exp
+		opencv\lib\Release\opencv_objdetect242.lib = opencv\lib\Release\opencv_objdetect242.lib
+		opencv\lib\Release\opencv_photo242.exp = opencv\lib\Release\opencv_photo242.exp
+		opencv\lib\Release\opencv_photo242.lib = opencv\lib\Release\opencv_photo242.lib
+		opencv\lib\Release\opencv_stitching242.exp = opencv\lib\Release\opencv_stitching242.exp
+		opencv\lib\Release\opencv_stitching242.lib = opencv\lib\Release\opencv_stitching242.lib
+		opencv\lib\Release\opencv_ts242.exp = opencv\lib\Release\opencv_ts242.exp
+		opencv\lib\Release\opencv_ts242.lib = opencv\lib\Release\opencv_ts242.lib
+		opencv\lib\Release\opencv_video242.exp = opencv\lib\Release\opencv_video242.exp
+		opencv\lib\Release\opencv_video242.lib = opencv\lib\Release\opencv_video242.lib
+		opencv\lib\Release\opencv_videostab242.exp = opencv\lib\Release\opencv_videostab242.exp
+		opencv\lib\Release\opencv_videostab242.lib = opencv\lib\Release\opencv_videostab242.lib
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5237F30-46F8-4A07-BF53-1201D3A35401}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5237F30-46F8-4A07-BF53-1201D3A35401}.Debug|Win32.Build.0 = Debug|Win32
+		{E5237F30-46F8-4A07-BF53-1201D3A35401}.Release|Win32.ActiveCfg = Release|Win32
+		{E5237F30-46F8-4A07-BF53-1201D3A35401}.Release|Win32.Build.0 = Release|Win32
+		{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}.Debug|Win32.Build.0 = Debug|Win32
+		{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}.Release|Win32.ActiveCfg = Release|Win32
+		{767CB52D-5C36-4F9B-9393-BE4D82A98FD9}.Release|Win32.Build.0 = Release|Win32
+		{52D36644-3D0F-4746-A201-2D41E8901913}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52D36644-3D0F-4746-A201-2D41E8901913}.Debug|Win32.Build.0 = Debug|Win32
+		{52D36644-3D0F-4746-A201-2D41E8901913}.Release|Win32.ActiveCfg = Release|Win32
+		{52D36644-3D0F-4746-A201-2D41E8901913}.Release|Win32.Build.0 = Release|Win32
+		{41CA8E5C-778F-4651-A2E8-93762EBD6102}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41CA8E5C-778F-4651-A2E8-93762EBD6102}.Debug|Win32.Build.0 = Debug|Win32
+		{41CA8E5C-778F-4651-A2E8-93762EBD6102}.Release|Win32.ActiveCfg = Release|Win32
+		{41CA8E5C-778F-4651-A2E8-93762EBD6102}.Release|Win32.Build.0 = Release|Win32
+		{BC49310B-A048-474B-ADA5-C532B9738E18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC49310B-A048-474B-ADA5-C532B9738E18}.Debug|Win32.Build.0 = Debug|Win32
+		{BC49310B-A048-474B-ADA5-C532B9738E18}.Release|Win32.ActiveCfg = Release|Win32
+		{BC49310B-A048-474B-ADA5-C532B9738E18}.Release|Win32.Build.0 = Release|Win32
+		{8D0520D6-6D80-469E-BFAC-D504EBB6A29F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D0520D6-6D80-469E-BFAC-D504EBB6A29F}.Debug|Win32.Build.0 = Debug|Win32
+		{8D0520D6-6D80-469E-BFAC-D504EBB6A29F}.Release|Win32.ActiveCfg = Release|Win32
+		{8D0520D6-6D80-469E-BFAC-D504EBB6A29F}.Release|Win32.Build.0 = Release|Win32
+		{05B83D3D-203B-4A98-9C3A-B296D61E865E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05B83D3D-203B-4A98-9C3A-B296D61E865E}.Debug|Win32.Build.0 = Debug|Win32
+		{05B83D3D-203B-4A98-9C3A-B296D61E865E}.Release|Win32.ActiveCfg = Release|Win32
+		{05B83D3D-203B-4A98-9C3A-B296D61E865E}.Release|Win32.Build.0 = Release|Win32
+		{15BC3FE8-363C-4509-921F-440CF85EC136}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15BC3FE8-363C-4509-921F-440CF85EC136}.Debug|Win32.Build.0 = Debug|Win32
+		{15BC3FE8-363C-4509-921F-440CF85EC136}.Release|Win32.ActiveCfg = Release|Win32
+		{15BC3FE8-363C-4509-921F-440CF85EC136}.Release|Win32.Build.0 = Release|Win32
+		{2174847D-5B37-4455-A453-70D97156E44F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2174847D-5B37-4455-A453-70D97156E44F}.Debug|Win32.Build.0 = Debug|Win32
+		{2174847D-5B37-4455-A453-70D97156E44F}.Release|Win32.ActiveCfg = Release|Win32
+		{2174847D-5B37-4455-A453-70D97156E44F}.Release|Win32.Build.0 = Release|Win32
+		{A892BF0A-9C9C-419C-87E3-AD9F569CBD26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A892BF0A-9C9C-419C-87E3-AD9F569CBD26}.Debug|Win32.Build.0 = Debug|Win32
+		{A892BF0A-9C9C-419C-87E3-AD9F569CBD26}.Release|Win32.ActiveCfg = Release|Win32
+		{A892BF0A-9C9C-419C-87E3-AD9F569CBD26}.Release|Win32.Build.0 = Release|Win32
+		{AB006D68-F3A2-4FD4-BCCF-2807CC62C51A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB006D68-F3A2-4FD4-BCCF-2807CC62C51A}.Debug|Win32.Build.0 = Debug|Win32
+		{AB006D68-F3A2-4FD4-BCCF-2807CC62C51A}.Release|Win32.ActiveCfg = Release|Win32
+		{AB006D68-F3A2-4FD4-BCCF-2807CC62C51A}.Release|Win32.Build.0 = Release|Win32
+		{EF6404C6-25ED-4EA7-A6F5-8E1A550990FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF6404C6-25ED-4EA7-A6F5-8E1A550990FA}.Debug|Win32.Build.0 = Debug|Win32
+		{EF6404C6-25ED-4EA7-A6F5-8E1A550990FA}.Release|Win32.ActiveCfg = Release|Win32
+		{EF6404C6-25ED-4EA7-A6F5-8E1A550990FA}.Release|Win32.Build.0 = Release|Win32
+		{6A845249-1A83-4492-92C5-12F975808899}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A845249-1A83-4492-92C5-12F975808899}.Debug|Win32.Build.0 = Debug|Win32
+		{6A845249-1A83-4492-92C5-12F975808899}.Release|Win32.ActiveCfg = Release|Win32
+		{6A845249-1A83-4492-92C5-12F975808899}.Release|Win32.Build.0 = Release|Win32
+		{CF04424C-10EC-4398-A0C2-DFA08BB15EA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF04424C-10EC-4398-A0C2-DFA08BB15EA2}.Debug|Win32.Build.0 = Debug|Win32
+		{CF04424C-10EC-4398-A0C2-DFA08BB15EA2}.Release|Win32.ActiveCfg = Release|Win32
+		{CF04424C-10EC-4398-A0C2-DFA08BB15EA2}.Release|Win32.Build.0 = Release|Win32
+		{C2AAC5D6-5EBC-4C23-A065-6795B791CB0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2AAC5D6-5EBC-4C23-A065-6795B791CB0D}.Debug|Win32.Build.0 = Debug|Win32
+		{C2AAC5D6-5EBC-4C23-A065-6795B791CB0D}.Release|Win32.ActiveCfg = Release|Win32
+		{C2AAC5D6-5EBC-4C23-A065-6795B791CB0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA5C231C-A7A9-4987-BCE3-E232183B7066} = {0C0C60B6-D71A-45E0-BD6E-670974CB5B65}
+		{56884780-F2E3-46C1-822C-893EDB313338} = {FA5C231C-A7A9-4987-BCE3-E232183B7066}
+		{28DD968A-5F48-49D6-A86D-1DEC12F2C8F5} = {FA5C231C-A7A9-4987-BCE3-E232183B7066}
+		{0820C282-A03D-4D9C-B2B4-D6B81D92EF78} = {FA5C231C-A7A9-4987-BCE3-E232183B7066}
+		{A2ABC514-6EB6-4AD0-B6EA-C55FD84B6204} = {56884780-F2E3-46C1-822C-893EDB313338}
+		{570C63ED-5260-43C3-B126-BADB5E8DB541} = {56884780-F2E3-46C1-822C-893EDB313338}
+		{DAD17848-81C0-436B-B6E4-165C21D9A303} = {28DD968A-5F48-49D6-A86D-1DEC12F2C8F5}
+		{FC53A7AE-B944-4228-8E28-BCCA247448D7} = {28DD968A-5F48-49D6-A86D-1DEC12F2C8F5}
+	EndGlobalSection
+EndGlobal
